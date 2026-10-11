@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Doctor"
+            android:textColor="#123B5D"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select a doctor for your appointment."
+            android:textColor="#667085"
+            android:textSize="14sp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/btnDoctor1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:text="Dr. A. Sharma&#10;General Physician"
+            android:textColor="#172B4D"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:background="@drawable/action_card"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/btnDoctor2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="14dp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:text="Dr. R. Patil&#10;General Physician"
+            android:textColor="#172B4D"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:background="@drawable/action_card"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/btnDoctor3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="14dp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:text="Dr. S. Deshmukh&#10;General Physician"
+            android:textColor="#172B4D"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:background="@drawable/action_card"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</ScrollView>
